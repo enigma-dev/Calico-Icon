@@ -1,4 +1,4 @@
-== Calico Icon Set ==
+## Calico Icon Set ##
 
 This project is meant to create a simple, free alternative to icon sets such as Silk, which have licenses just annoying
 enough to be GPL-incompatible. While I respect icon authors' wishes to be credited for their work, I also respect free
