@@ -6769,8 +6769,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="149.10854"
-     inkscape:cy="758.79373"
+     inkscape:cx="303.25494"
+     inkscape:cy="628.70382"
      inkscape:document-units="px"
      inkscape:current-layer="Layer_Icons"
      showgrid="false"
@@ -6863,7 +6863,7 @@
          sodipodi:cx="9.5"
          id="pac_eye"
          sodipodi:type="arc"
-         d="M 11,6 A 1.5,2 0 1 1 8,6 1.5,2 0 1 1 11,6 z" />
+         d="M 11,6 C 11,7.1045695 10.328427,8 9.5,8 8.6715729,8 8,7.1045695 8,6 8,4.8954305 8.6715729,4 9.5,4 10.328427,4 11,4.8954305 11,6 z" />
       <path
          sodipodi:type="arc"
          id="pac_pupil"
@@ -6871,7 +6871,7 @@
          sodipodi:cy="6.5"
          sodipodi:rx="0.5"
          sodipodi:ry="1"
-         d="m 10.5,6.5 a 0.5,1 0 1 1 -1,0 0.5,1 0 1 1 1,0 z" />
+         d="m 10.5,6.5 c 0,0.5522847 -0.223858,1 -0.5,1 -0.2761424,0 -0.5,-0.4477153 -0.5,-1 0,-0.5522847 0.2238576,-1 0.5,-1 0.276142,0 0.5,0.4477153 0.5,1 z" />
     </g>
     <g
        id="Icon_Sound"
@@ -10607,7 +10607,7 @@
          width="1"
          height="1" />
       <use
-         transform="matrix(0.8,0,0,0.8,5.5,3.375)"
+         transform="matrix(0.8,0,0,0.8,4.3,3.4)"
          x="0"
          y="0"
          xlink:href="#Basic_Photo"
@@ -10615,6 +10615,25 @@
          width="1"
          height="1"
          style="filter:url(#brightenContrast25)" />
+    </g>
+    <g
+       transform="translate(308,162)"
+       id="g4860">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#Basic_ActionFolders_Folder_Group"
+         id="use4862"
+         width="1"
+         height="1" />
+      <use
+         transform="translate(5,3)"
+         x="0"
+         y="0"
+         xlink:href="#Basic_MiniPaper"
+         id="use4864"
+         width="1"
+         height="1" />
     </g>
   </g>
 </svg>
