@@ -41,6 +41,32 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient4875">
+      <stop
+         id="stop4877"
+         offset="0"
+         style="stop-color:#e1f0fe;stop-opacity:1;" />
+      <stop
+         style="stop-color:#7aa3f4;stop-opacity:1"
+         offset="0.42105225"
+         id="stop4883" />
+      <stop
+         id="stop4879"
+         offset="1"
+         style="stop-color:#124ecc;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient4857">
+      <stop
+         id="stop4859"
+         offset="0"
+         style="stop-color:#5383fd;stop-opacity:1;" />
+      <stop
+         id="stop4861"
+         offset="1"
+         style="stop-color:#0d3a99;stop-opacity:1;" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient6037">
       <stop
          style="stop-color:#131313;stop-opacity:1;"
@@ -2775,7 +2801,6 @@
          id="stop6762-38-7" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient4237-7">
       <stop
          style="stop-color:#e7e7e7;stop-opacity:1;"
@@ -2820,10 +2845,9 @@
          id="stop4297-6" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient4277-9">
       <stop
-         style="stop-color:#6580b7;stop-opacity:1"
+         style="stop-color:#556fa5;stop-opacity:1;"
          offset="0"
          id="stop4279-0" />
       <stop
@@ -6410,166 +6434,6 @@
        y1="14.5"
        x2="5.5"
        y2="5.5" />
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
-       inkscape:menu="Color"
-       inkscape:label="Lightness-Contrast"
-       height="1"
-       width="1"
-       y="0"
-       x="0"
-       id="brighten10">
-      <feFlood
-         flood-color="rgb(128,128,128)"
-         flood-opacity="0"
-         result="result1"
-         id="feFlood6099" />
-      <feBlend
-         result="result2"
-         mode="normal"
-         in2="SourceGraphic"
-         id="feBlend6101" />
-      <feComposite
-         k4="0"
-         k3="0"
-         k1="0"
-         result="result3"
-         operator="arithmetic"
-         k2="1.1"
-         in2="SourceGraphic"
-         id="feComposite6103" />
-      <feComposite
-         operator="in"
-         in2="SourceGraphic"
-         id="feComposite6105" />
-    </filter>
-    <filter
-       id="brighten20"
-       x="0"
-       y="0"
-       width="1"
-       height="1"
-       inkscape:label="Lightness-Contrast"
-       inkscape:menu="Color"
-       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
-       color-interpolation-filters="sRGB">
-      <feFlood
-         id="feFlood6079"
-         result="result1"
-         flood-opacity="0"
-         flood-color="rgb(128,128,128)" />
-      <feBlend
-         id="feBlend6081"
-         in2="SourceGraphic"
-         mode="normal"
-         result="result2" />
-      <feComposite
-         id="feComposite6083"
-         in2="SourceGraphic"
-         k2="1.2"
-         operator="arithmetic"
-         result="result3"
-         k1="0"
-         k3="0"
-         k4="0" />
-      <feComposite
-         id="feComposite6085"
-         in2="SourceGraphic"
-         operator="in" />
-    </filter>
-    <filter
-       color-interpolation-filters="sRGB"
-       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
-       inkscape:menu="Color"
-       inkscape:label="Lightness-Contrast"
-       height="1"
-       width="1"
-       y="0"
-       x="0"
-       id="brighten40">
-      <feFlood
-         flood-color="rgb(128,128,128)"
-         flood-opacity="0"
-         result="result1"
-         id="feFlood6089" />
-      <feBlend
-         result="result2"
-         mode="normal"
-         in2="SourceGraphic"
-         id="feBlend6091" />
-      <feComposite
-         k4="0"
-         k3="0"
-         k1="0"
-         result="result3"
-         operator="arithmetic"
-         k2="1.4"
-         in2="SourceGraphic"
-         id="feComposite6093" />
-      <feComposite
-         operator="in"
-         in2="SourceGraphic"
-         id="feComposite6095" />
-    </filter>
-    <filter
-       id="filter6178"
-       inkscape:label="filter12">
-      <feComposite
-         id="feComposite6180"
-         in2="SourceGraphic"
-         result="result1" />
-      <feComposite
-         id="feComposite6182"
-         in2="result1"
-         result="result2" />
-      <feComposite
-         id="feComposite6184"
-         in2="result2"
-         result="result3" />
-      <feComposite
-         id="feComposite6186"
-         in2="result3"
-         operator="arithmetic"
-         k1="1"
-         k2="-1"
-         k3="1.2"
-         k4="0" />
-    </filter>
-    <filter
-       id="brighten20-0"
-       x="0"
-       y="0"
-       width="1"
-       height="1"
-       inkscape:label="Lightness-Contrast"
-       inkscape:menu="Color"
-       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
-       color-interpolation-filters="sRGB">
-      <feFlood
-         id="feFlood6079-2"
-         result="result1"
-         flood-opacity="0"
-         flood-color="rgb(128,128,128)" />
-      <feBlend
-         id="feBlend6081-8"
-         in2="SourceGraphic"
-         mode="normal"
-         result="result2" />
-      <feComposite
-         id="feComposite6083-8"
-         in2="SourceGraphic"
-         k2="1.2"
-         operator="arithmetic"
-         result="result3"
-         k1="0"
-         k3="0"
-         k4="0" />
-      <feComposite
-         id="feComposite6085-8"
-         in2="SourceGraphic"
-         operator="in" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient5640-5"
@@ -6716,6 +6580,186 @@
        y1="12"
        x2="12"
        y2="5.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4875"
+       id="radialGradient4853"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.2666692,2.1072271e-7,-2.1072241e-7,1.2666674,-88.343685,-15.885832)"
+       cx="75.271179"
+       cy="17.278265"
+       fx="75.271179"
+       fy="17.278265"
+       r="7.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4857"
+       id="linearGradient4855"
+       gradientUnits="userSpaceOnUse"
+       x1="5"
+       y1="4"
+       x2="14"
+       y2="13" />
+    <filter
+       id="brightenContrast20"
+       inkscape:label="Brighten-UpContrast"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       color-interpolation-filters="sRGB">
+      <feComposite
+         id="feComposite6180"
+         in2="SourceGraphic"
+         result="result1" />
+      <feComposite
+         id="feComposite6182"
+         in2="result1"
+         result="result2" />
+      <feComposite
+         id="feComposite6184"
+         in2="result2"
+         result="result3" />
+      <feComposite
+         id="feComposite6186"
+         in2="result3"
+         operator="arithmetic"
+         k1="1"
+         k2="-1"
+         k3="1.2"
+         k4="0" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       inkscape:label="Brighten-UpContrast"
+       id="brightenContrast25">
+      <feComposite
+         result="result1"
+         in2="SourceGraphic"
+         id="feComposite4888" />
+      <feComposite
+         result="result2"
+         in2="result1"
+         id="feComposite4890" />
+      <feComposite
+         result="result3"
+         in2="result2"
+         id="feComposite4892" />
+      <feComposite
+         k4="0"
+         k3="1.25"
+         k2="-1"
+         k1="1"
+         operator="arithmetic"
+         in2="result3"
+         id="feComposite4894" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
+       inkscape:menu="Color"
+       inkscape:label="Lightness-Contrast"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="brighten10">
+      <feFlood
+         flood-color="rgb(128,128,128)"
+         flood-opacity="0"
+         result="result1"
+         id="feFlood6099" />
+      <feBlend
+         result="result2"
+         mode="normal"
+         in2="SourceGraphic"
+         id="feBlend6101" />
+      <feComposite
+         k4="0"
+         k3="0"
+         k1="0"
+         result="result3"
+         operator="arithmetic"
+         k2="1.1"
+         in2="SourceGraphic"
+         id="feComposite6103" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         id="feComposite6105" />
+    </filter>
+    <filter
+       id="brighten20"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:label="Lightness-Contrast"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         id="feFlood6079"
+         result="result1"
+         flood-opacity="0"
+         flood-color="rgb(128,128,128)" />
+      <feBlend
+         id="feBlend6081"
+         in2="SourceGraphic"
+         mode="normal"
+         result="result2" />
+      <feComposite
+         id="feComposite6083"
+         in2="SourceGraphic"
+         k2="1.2"
+         operator="arithmetic"
+         result="result3"
+         k1="0"
+         k3="0"
+         k4="0" />
+      <feComposite
+         id="feComposite6085"
+         in2="SourceGraphic"
+         operator="in" />
+    </filter>
+    <filter
+       color-interpolation-filters="sRGB"
+       inkscape:menu-tooltip="Increase or decrease lightness and contrast"
+       inkscape:menu="Color"
+       inkscape:label="Lightness-Contrast"
+       height="1"
+       width="1"
+       y="0"
+       x="0"
+       id="brighten40">
+      <feFlood
+         flood-color="rgb(128,128,128)"
+         flood-opacity="0"
+         result="result1"
+         id="feFlood6089" />
+      <feBlend
+         result="result2"
+         mode="normal"
+         in2="SourceGraphic"
+         id="feBlend6091" />
+      <feComposite
+         k4="0"
+         k3="0"
+         k1="0"
+         result="result3"
+         operator="arithmetic"
+         k2="1.4"
+         in2="SourceGraphic"
+         id="feComposite6093" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         id="feComposite6095" />
+    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -6725,8 +6769,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="3.569393"
-     inkscape:cy="739.29376"
+     inkscape:cx="149.10854"
+     inkscape:cy="758.79373"
      inkscape:document-units="px"
      inkscape:current-layer="Layer_Icons"
      showgrid="false"
@@ -7656,6 +7700,18 @@
          transform="translate(0,11.75)"
          width="640"
          height="800" />
+    </g>
+    <g
+       transform="translate(126,54)"
+       id="Icon_Object_CC">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#object_sphere"
+         id="use4851"
+         width="1"
+         height="1"
+         style="color:#000000;fill:url(#radialGradient4853);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient4855);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     </g>
     <g
        transform="translate(216,54)"
@@ -10363,7 +10419,7 @@
          id="use7496"
          width="1"
          height="1"
-         style="filter:url(#filter6178)" />
+         style="filter:url(#brightenContrast20)" />
     </g>
     <g
        id="Icon_ActionFolder_LightningBolt"
@@ -10519,7 +10575,7 @@
          id="use7544"
          width="1"
          height="1"
-         style="filter:url(#filter6178)" />
+         style="filter:url(#brightenContrast20)" />
     </g>
     <g
        id="Icon_ActionFolder_Paper"
@@ -10551,13 +10607,14 @@
          width="1"
          height="1" />
       <use
-         transform="matrix(0.8,0,0,0.8,5.5,3.5)"
+         transform="matrix(0.8,0,0,0.8,5.5,3.375)"
          x="0"
          y="0"
          xlink:href="#Basic_Photo"
          id="use4849"
          width="1"
-         height="1" />
+         height="1"
+         style="filter:url(#brightenContrast25)" />
     </g>
   </g>
 </svg>
