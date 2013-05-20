@@ -2866,17 +2866,6 @@
          offset="1"
          id="stop3852-9" />
     </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient11639"
-       id="radialGradient5144"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.3333331,0,0,1.3333331,-2.6666654,-2.3333294)"
-       cx="8.000001"
-       cy="6.2499981"
-       fx="8.000001"
-       fy="6.2499981"
-       r="1.5" />
     <linearGradient
        id="linearGradient3825-0-9">
       <stop
@@ -6735,9 +6724,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6568542"
-     inkscape:cx="133.09615"
-     inkscape:cy="630.60848"
+     inkscape:zoom="1"
+     inkscape:cx="3.569393"
+     inkscape:cy="739.29376"
      inkscape:document-units="px"
      inkscape:current-layer="Layer_Icons"
      showgrid="false"
@@ -6829,18 +6818,16 @@
          sodipodi:cy="6"
          sodipodi:cx="9.5"
          id="pac_eye"
-         style="fill-opacity:1"
          sodipodi:type="arc"
-         d="M 11,6 C 11,7.1045695 10.328427,8 9.5,8 8.6715729,8 8,7.1045695 8,6 8,4.8954305 8.6715729,4 9.5,4 10.328427,4 11,4.8954305 11,6 z" />
+         d="M 11,6 A 1.5,2 0 1 1 8,6 1.5,2 0 1 1 11,6 z" />
       <path
          sodipodi:type="arc"
-         style="fill-opacity:1;stroke:none"
          id="pac_pupil"
          sodipodi:cx="10"
          sodipodi:cy="6.5"
          sodipodi:rx="0.5"
          sodipodi:ry="1"
-         d="m 10.5,6.5 c 0,0.5522847 -0.223858,1 -0.5,1 -0.2761424,0 -0.5,-0.4477153 -0.5,-1 0,-0.5522847 0.2238576,-1 0.5,-1 0.276142,0 0.5,0.4477153 0.5,1 z" />
+         d="m 10.5,6.5 a 0.5,1 0 1 1 -1,0 0.5,1 0 1 1 1,0 z" />
     </g>
     <g
        id="Icon_Sound"
@@ -7497,15 +7484,22 @@
          width="1"
          height="1"
          style="color:#000000;fill:url(#radialGradient5646);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient5648);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         sodipodi:type="arc"
-         style="color:#000000;fill:url(#radialGradient5144);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="path5136"
-         sodipodi:cx="8.5"
-         sodipodi:cy="6.5"
-         sodipodi:rx="1.5"
-         sodipodi:ry="1.5"
-         d="M 10,6.5 C 10,7.3284271 9.3284271,8 8.5,8 7.6715729,8 7,7.3284271 7,6.5 7,5.6715729 7.6715729,5 8.5,5 9.3284271,5 10,5.6715729 10,6.5 z" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#pac_eye"
+         id="use4850"
+         width="1"
+         height="1"
+         style="fill:#ffffff;stroke:none" />
+      <use
+         x="0"
+         y="0"
+         xlink:href="#pac_pupil"
+         id="use4852"
+         width="1"
+         height="1"
+         style="fill:#000000;stroke:#000000;stroke-width:0.125;stroke-miterlimit:4;stroke-dasharray:none" />
     </g>
     <g
        transform="translate(18,54)"
@@ -7522,53 +7516,56 @@
     <g
        id="Icon_Photo"
        transform="translate(36,54)">
-      <rect
-         ry="1.5"
-         y="2.5"
-         x="2.5"
-         height="14"
-         width="13"
-         id="photo_frame"
-         style="color:#000000;fill:url(#linearGradient5360);fill-opacity:1;stroke:url(#linearGradient5362);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         ry="0"
-         y="4"
-         x="4"
-         height="11"
-         width="10"
-         id="photo_sky"
-         style="color:#000000;fill:url(#linearGradient5364);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         ry="0"
-         y="11"
-         x="4"
-         height="3"
-         width="10"
-         id="photo_grass"
-         style="color:#000000;fill:url(#linearGradient5366);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <rect
-         style="color:#000000;fill:url(#linearGradient5368);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         id="photo_grassGrade"
-         width="10"
-         height="4"
-         x="4"
-         y="11"
-         ry="0" />
-      <rect
-         rx="1.5"
-         ry="1"
-         y="9.5"
-         x="7"
-         height="3"
-         width="4"
-         id="photo_treeTrunk"
-         style="color:#000000;fill:url(#linearGradient5370);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
-      <path
-         sodipodi:nodetypes="zzzzz"
-         inkscape:connector-curvature="0"
-         id="photo_treeTop"
-         d="M 9,4 C 7,4 5.5,6 5.5,7.5 5.5,9 7,11 9,11 11,11 12.5,9.5 12.5,7.5 12.5,5.5 11,4 9,4 z"
-         style="color:#000000;fill:url(#radialGradient5372);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <g
+         id="Basic_Photo">
+        <rect
+           style="color:#000000;fill:url(#linearGradient5360);fill-opacity:1;stroke:url(#linearGradient5362);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="photo_frame"
+           width="13"
+           height="14"
+           x="2.5"
+           y="2.5"
+           ry="1.5" />
+        <rect
+           style="color:#000000;fill:url(#linearGradient5364);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="photo_sky"
+           width="10"
+           height="11"
+           x="4"
+           y="4"
+           ry="0" />
+        <rect
+           style="color:#000000;fill:url(#linearGradient5366);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="photo_grass"
+           width="10"
+           height="3"
+           x="4"
+           y="11"
+           ry="0" />
+        <rect
+           ry="0"
+           y="11"
+           x="4"
+           height="4"
+           width="10"
+           id="photo_grassGrade"
+           style="color:#000000;fill:url(#linearGradient5368);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <rect
+           style="color:#000000;fill:url(#linearGradient5370);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="photo_treeTrunk"
+           width="4"
+           height="3"
+           x="7"
+           y="9.5"
+           ry="1"
+           rx="1.5" />
+        <path
+           style="color:#000000;fill:url(#radialGradient5372);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="M 9,4 C 7,4 5.5,6 5.5,7.5 5.5,9 7,11 9,11 11,11 12.5,9.5 12.5,7.5 12.5,5.5 11,4 9,4 z"
+           id="photo_treeTop"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zzzzz" />
+      </g>
     </g>
     <g
        transform="translate(54,54)"
@@ -8915,7 +8912,7 @@
            sodipodi:cy="9.5"
            sodipodi:rx="0.875"
            sodipodi:ry="0.875"
-           d="m 5.375,9.5 a 0.875,0.875 0 1 1 -1.75,0 0.875,0.875 0 1 1 1.75,0 z" />
+           d="m 5.375,9.5 c 0,0.4832492 -0.3917508,0.875 -0.875,0.875 -0.4832492,0 -0.875,-0.3917508 -0.875,-0.875 0,-0.4832492 0.3917508,-0.875 0.875,-0.875 0.4832492,0 0.875,0.3917508 0.875,0.875 z" />
         <path
            sodipodi:type="arc"
            id="path7673"
@@ -8923,9 +8920,9 @@
            sodipodi:cy="12"
            sodipodi:rx="0.75"
            sodipodi:ry="0.75"
-           d="m 9.25,12 a 0.75,0.75 0 1 1 -1.5,0 0.75,0.75 0 1 1 1.5,0 z" />
+           d="m 9.25,12 c 0,0.414214 -0.3357864,0.75 -0.75,0.75 -0.4142136,0 -0.75,-0.335786 -0.75,-0.75 0,-0.414214 0.3357864,-0.75 0.75,-0.75 0.4142136,0 0.75,0.335786 0.75,0.75 z" />
         <path
-           d="m 8.375,14.5 a 0.875,0.75 0 1 1 -1.75,0 0.875,0.75 0 1 1 1.75,0 z"
+           d="m 8.375,14.5 c 0,0.414214 -0.3917508,0.75 -0.875,0.75 -0.4832492,0 -0.875,-0.335786 -0.875,-0.75 0,-0.414214 0.3917508,-0.75 0.875,-0.75 0.4832492,0 0.875,0.335786 0.875,0.75 z"
            sodipodi:ry="0.75"
            sodipodi:rx="0.875"
            sodipodi:cy="14.5"
@@ -8939,7 +8936,7 @@
            sodipodi:cy="12.5"
            sodipodi:rx="0.875"
            sodipodi:ry="0.875"
-           d="m 11.375,12.5 a 0.875,0.875 0 1 1 -1.75,0 0.875,0.875 0 1 1 1.75,0 z" />
+           d="m 11.375,12.5 c 0,0.483249 -0.391751,0.875 -0.875,0.875 -0.483249,0 -0.875,-0.391751 -0.875,-0.875 0,-0.483249 0.391751,-0.875 0.875,-0.875 0.483249,0 0.875,0.391751 0.875,0.875 z" />
         <path
            sodipodi:type="arc"
            id="path7683"
@@ -8947,7 +8944,7 @@
            sodipodi:cy="7.5"
            sodipodi:rx="0.875"
            sodipodi:ry="0.875"
-           d="m 7.375,7.5 a 0.875,0.875 0 1 1 -1.75,0 0.875,0.875 0 1 1 1.75,0 z" />
+           d="M 7.375,7.5 C 7.375,7.9832492 6.9832492,8.375 6.5,8.375 6.0167508,8.375 5.625,7.9832492 5.625,7.5 5.625,7.0167508 6.0167508,6.625 6.5,6.625 c 0.4832492,0 0.875,0.3917508 0.875,0.875 z" />
       </g>
     </g>
     <g
@@ -10525,7 +10522,7 @@
          style="filter:url(#filter6178)" />
     </g>
     <g
-       id="Icon_ActionPaper"
+       id="Icon_ActionFolder_Paper"
        transform="translate(270,162)">
       <use
          height="1"
@@ -10542,6 +10539,25 @@
          y="0"
          x="0"
          transform="translate(5,3)" />
+    </g>
+    <g
+       transform="translate(289,162)"
+       id="Icon_ActionFolder_Photo">
+      <use
+         x="0"
+         y="0"
+         xlink:href="#Basic_ActionFolders_Folder_Group"
+         id="use4847"
+         width="1"
+         height="1" />
+      <use
+         transform="matrix(0.8,0,0,0.8,5.5,3.5)"
+         x="0"
+         y="0"
+         xlink:href="#Basic_Photo"
+         id="use4849"
+         width="1"
+         height="1" />
     </g>
   </g>
 </svg>
