@@ -77,3 +77,4 @@ mv raster/Icon_Script_CC.png           icons/Calico/restree/script.png
 mv raster/Icon_Speaker.png             icons/Calico/restree/sound.png
 mv raster/Icon_Sprite_CC.png           icons/Calico/restree/sprite.png
 mv raster/Icon_Timeline_CC.png         icons/Calico/restree/timeline.png
+mv raster/Icon_ShaderScript_CC.png     icons/Calico/restree/shaderscript.png
