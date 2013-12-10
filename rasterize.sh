@@ -1,14 +1,17 @@
 #!/bin/bash
 
-ignored_icons="Sprite Sound Background Path Script Font Timeline Object Room Model3D Definitions Overworld Extension Folder OpenFolder Folder2 OpenFolder2 Bug_Basic"
-recommended_icons="Sprite_GMB Sound_GMB Background_GMB Path_GMB Script_GMB Font_GMB Timeline_GMB Object_GMB Room_GMB Model_GMB Definitions_GMB Overworld_GMB Extension_GMB Speaker ShaderScript Sprite_CC Sound_CC Photo Path_CC Script_CC Font2 Timeline_CC Object_CC Extension_CC New NewPlus Save SaveAll SaveAs Close Settings SimpleArrowLeft SimpleArrowRight SimpleX InfoButton Help SettingsBox SettingsWindow CascadeWindows Problem Book Wrench Folder_Orange OpenFolder_Orange NewFolder_Orange DeleteFolder_Orange Folder_Brown OpenFolder_Brown NewFolder_Brown DeleteFolder_Brown Folder2_Brown OpenFolder2_Brown NewFolder2_Brown NewFolder_Brown DeleteFolder2_Brown Folder2_Orange OpenFolder2_Orange NewFolder2_Orange NewFolder_Brown DeleteFolder2_Orange ArrowRun ArrowDebug ArrowDesign KillButton Playback_Play Playback_Pause Playback_Stop CheckMark RedX BuildBinary Bug_Green_Spots Bug_Red_Spots Bug_Blue_Spots Bug_Green Bug_Red Bug_Blue Broom Debug_RunToLine Debug_StepOver Debug_StepInto Debug_StepOut Debug_Instruction_StepOver Debug_Instruction_StepInto Undo Redo Bold Italics Underline Goto Highlighter MagnifyingGlass ZoomIn ZoomOut Printer Cut Copy Clipboard SearchPaper Palette Search Step Wand Mouse KeyUp KeyDown Keyboard LightningBolt Bomb LightBulb Paintbrush Collision Collision2 AlarmClock FilmStrip Bare_Action_Folder ActionFolder_Step ActionFolder_Wand ActionFolder_Mouse ActionFolder_KeyUp ActionFolder_KeyDown ActionFolder_Keyboard ActionFolder_LightningBolt ActionFolder_Bomb ActionFolder_Lightbulb ActionFolder_Paintbrush ActionFolder_Collision ActionFolder_Collision2 ActionFolder_AlarmClock ActionFolder_Filmstrip ActionFolder_Paper ActionFolder_Photo WinMinimize_Monochrome WinMaximize_Monochrome WinRestore_Monochrome WinClose_Monochrome Draw_Paintbrush Draw_Pencil Draw_Bucket Draw_Spraycan Draw_Rectangle Draw_Circle Draw_Grayscale Draw_Gradient Draw_Colorize Draw_Brighten Draw_Invert Draw_ShiftHue Draw_Blur Draw_Image Draw_Antialias Draw_Opacity Draw_LoadAlpha"
+ignored_icons="Icon_Sprite Icon_Sound Icon_Background Icon_Path Icon_Script Icon_Font Icon_Timeline Icon_Object Icon_Room Icon_Model3D Icon_Definitions Icon_Overworld Icon_Extension Icon_Folder Icon_OpenFolder Icon_Folder2 Icon_OpenFolder2 Icon_Bug_Basic"
 
-icons=${@:-$recommended_icons}
+icons=`inkscape -S icons.svg | grep -o "^Icon_\\w\\+"`
 
 mkdir -p raster
 
 for icon in $icons
 do
+  if [[ $ignored_icons =~ $icon ]]; then
+    continue;
+  fi
+  
   # Calculate the screen coordinates of the icon, since InkScape is FAR, FAR too fucking stupid
   # to do this for you in any sensible way. Don't bother exporting the images with the --export-area-snap
   # option; that can't align them to a grid, only to whole pixels. And it can't round, only floor/ceil.
@@ -24,17 +27,17 @@ do
   # obtaining it any other way. Thanks. Your program is amazingly intuitive, as a GUI. Too bad everything about
   # the code, spec, and CLI are totally fucking disgustingly back-asswards ugly.
   
-  x=`inkscape icons.svg --query-id="Icon_$icon" --query-x`; x=`echo "scale=0;($x+9)/18*18" | bc`;
+  x=`inkscape icons.svg --query-id="$icon" --query-x`; x=`echo "scale=0;($x+9)/18*18" | bc`;
   if [[ -z "$x" ]]
   then 
     echo "Failed to export icon '$icon'".
     continue;
   fi
-  y=`inkscape icons.svg --query-id="Icon_$icon" --query-y`; y=`echo "scale=0;($y+9)/18*18" | bc`;
+  y=`inkscape icons.svg --query-id="$icon" --query-y`; y=`echo "scale=0;($y+9)/18*18" | bc`;
   y=$((800-y-18))
   x2=$((x+18))
   y2=$((y+18))
-  inkscape icons.svg --export-id=Icon_$icon --export-area=$x:$y:$x2:$y2 --export-id-only --export-png=raster/Icon_$icon.png
+  inkscape icons.svg --export-id=$icon --export-area=$x:$y:$x2:$y2 --export-id-only --export-png=raster/$icon.png
   
   # Doesn't work because fuck InkScape.
   #inkscape icons.svg --export-id=Icon_$icon --export-area-snap --export-id-only --export-plain-svg=individual/Icon_$icon.svg
