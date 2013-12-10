@@ -8,7 +8,8 @@ mkdir -p raster
 
 for icon in $icons
 do
-  if [[ $ignored_icons =~ $icon ]]; then
+  outname=raster/$icon.png
+  if [[ $ignored_icons =~ $icon ]] || [ -e $outname ]; then
     continue;
   fi
   
@@ -37,7 +38,7 @@ do
   y=$((800-y-18))
   x2=$((x+18))
   y2=$((y+18))
-  inkscape icons.svg --export-id=$icon --export-area=$x:$y:$x2:$y2 --export-id-only --export-png=raster/$icon.png
+  inkscape icons.svg --export-id=$icon --export-area=$x:$y:$x2:$y2 --export-id-only --export-png=$outname
   
   # Doesn't work because fuck InkScape.
   #inkscape icons.svg --export-id=Icon_$icon --export-area-snap --export-id-only --export-plain-svg=individual/Icon_$icon.svg
