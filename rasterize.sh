@@ -2,13 +2,15 @@
 
 ignored_icons="Icon_Sprite Icon_Sound Icon_Background Icon_Path Icon_Script Icon_Font Icon_Timeline Icon_Object Icon_Room Icon_Model3D Icon_Definitions Icon_Overworld Icon_Extension Icon_Folder Icon_OpenFolder Icon_Folder2 Icon_OpenFolder2 Icon_Bug_Basic"
 
-icons=`inkscape -S icons.svg | grep -o "^Icon_\\w\\+"`
+for style in "" "-dark"
+do
 
-mkdir -p raster
+icons=`inkscape -S icons.svg | grep -o "^Icon_\\w\\+"`
 
 for icon in $icons
 do
-  outname=raster/$icon.png
+  mkdir -p raster$style
+  outname=raster$style/$icon.png
   if [[ $ignored_icons =~ $icon ]] || [ -e $outname ]; then
     continue;
   fi
@@ -28,20 +30,22 @@ do
   # obtaining it any other way. Thanks. Your program is amazingly intuitive, as a GUI. Too bad everything about
   # the code, spec, and CLI are totally fucking disgustingly back-asswards ugly.
   
-  x=`inkscape icons.svg --query-id="$icon" --query-x`; x=`echo "scale=0;($x+9)/18*18" | bc`;
+  x=`inkscape icons$style.svg --query-id="$icon" --query-x`; x=`echo "scale=0;($x+9)/18*18" | bc`;
   if [[ -z "$x" ]]
   then 
     echo "Failed to export icon '$icon'".
     continue;
   fi
-  y=`inkscape icons.svg --query-id="$icon" --query-y`; y=`echo "scale=0;($y+9)/18*18" | bc`;
+  y=`inkscape icons$style.svg --query-id="$icon" --query-y`; y=`echo "scale=0;($y+9)/18*18" | bc`;
   y=$((800-y-18))
   x2=$((x+18))
   y2=$((y+18))
-  inkscape icons.svg --export-id=$icon --export-area=$x:$y:$x2:$y2 --export-id-only --export-png=$outname
+  inkscape icons$style.svg --export-id=$icon --export-area=$x:$y:$x2:$y2 --export-id-only --export-png=$outname
   
   # Doesn't work because fuck InkScape.
-  #inkscape icons.svg --export-id=Icon_$icon --export-area-snap --export-id-only --export-plain-svg=individual/Icon_$icon.svg
+  #inkscape icons$style.svg --export-id=Icon_$icon --export-area-snap --export-id-only --export-plain-svg=individual/Icon_$icon.svg
 done
+
+done # style
 
 echo "Icon export complete";

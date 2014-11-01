@@ -1,2 +1,6 @@
 raster/
 icons/
+raster*/
+*.0.svg
+*~.svg
+*.orig
