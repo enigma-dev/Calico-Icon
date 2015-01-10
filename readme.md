@@ -6,6 +6,9 @@ All the icons in this set are vectorized, but designed to look good at small res
 
 ![Icons](http://enigma-dev.github.io/Calico-Icon/icons.svg "Icon Set")
 
+*Dark Versions:*
+![Icons](http://enigma-dev.github.io/Calico-Icon/icons-dark.svg "Dark Icon Set")
+
 As you can see, presently, this icon set is small. It is designed to suit the needs of various IDEs for the ENIGMA project, and so will accumulate more icons as the need arises for them in that project. You may request new icons in the tracker.
 
 The icons are designed such that the code is minimal, in the sense that it is easy to change them in bulk in their vector format. SVG is not a perfect format, but it is much better suited for this than, say, XCF or PSD.
