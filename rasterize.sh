@@ -2,9 +2,9 @@
 
 ignored_icons="Icon_Sprite Icon_Sound Icon_Background Icon_Path Icon_Script Icon_Font Icon_Timeline Icon_Object Icon_Room Icon_Model3D Icon_Definitions Icon_Overworld Icon_Extension Icon_Folder Icon_OpenFolder Icon_Folder2 Icon_OpenFolder2 Icon_Bug_Basic"
 
-styles=("" "-dark" "-16" "-32");
-heights=(800 800 16 32);
-sizes=(18 18 16 32);
+styles=("" "-dark" "-16" "-24" "-32");
+heights=(800 800 16 24 32);
+sizes=(18 18 16 24 32);
 for i in {0..3}; do
   style=${styles[i]}
   pageheight=${heights[i]}
