@@ -38,10 +38,14 @@ for i in {0..3}; do
     fi
     
     roundbias=$((iconsz/2))
-    x=$(echo "scale=0; ($x)/1" | bc);
+    x=$(printf '%.0f\n' $x)
+    y=$(printf '%.0f\n' $y)
+    
+    x=$(echo "scale=0; ($x)/$iconsz*$iconsz" | bc);
     y=$(echo "scale=0; ($pageheight-(($y+$roundbias)/$iconsz*$iconsz)-$iconsz)/1" | bc);
     x2=$((x+iconsz));
     y2=$((y+iconsz));
+    echo inkscape "icons$style.svg" --export-id="$icon" --export-area="$x:$y:$x2:$y2" --export-id-only --export-png="$outname"
     inkscape "icons$style.svg" --export-id="$icon" --export-area="$x:$y:$x2:$y2" --export-id-only --export-png="$outname"
   done
 done # style loop
