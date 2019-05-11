@@ -29,16 +29,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="640"
-   height="800"
-   id="svg2"
+   id="SVGRoot"
    version="1.1"
-   inkscape:version="0.91+devel r"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="icons-dark.svg"
    inkscape:export-filename="/home/josh/Desktop/resourceicons.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
-   viewBox="0 0 640 800">
+   viewBox="0 0 512 312">
   <defs
      id="defs4">
     <linearGradient
@@ -2921,9 +2919,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="437.22098"
-     inkscape:cy="717.02738"
+     inkscape:zoom="2.3782051"
+     inkscape:cx="256"
+     inkscape:cy="156"
      inkscape:document-units="px"
      inkscape:current-layer="Layer_Icons"
      showgrid="false"
@@ -2931,10 +2929,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1030"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1731"
+     inkscape:window-height="911"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:object-nodes="true"
      showborder="true"
@@ -3088,8 +3086,6 @@
        id="Icon_Script"
        transform="translate(72,18)">
       <use
-         height="800"
-         width="640"
          id="script_paper"
          xlink:href="#paper_base"
          y="0"
@@ -3153,9 +3149,7 @@
          y="0"
          xlink:href="#hourglass_top"
          id="hourglass_bottom"
-         transform="translate(0,12)"
-         width="640"
-         height="800" />
+         transform="translate(0,12)" />
     </g>
     <g
        id="Icon_Object"
@@ -3452,8 +3446,6 @@
          y="0"
          x="0" />
       <use
-         height="800"
-         width="640"
          transform="translate(0,12)"
          id="hourglass_bottom_GMB"
          xlink:href="#hourglass_top_GMB"
@@ -3717,6 +3709,54 @@
       </g>
     </g>
     <g
+       id="Icon_CarbonPaper"
+       transform="translate(270,36)">
+      <path
+         style="opacity:1;fill:url(#linearGradient7378);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient7654);stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;font-variant-east_asian:normal;vector-effect:none"
+         d="M 1.5,15.5 H 11 c 5.5,0 1,-13 5.5,-14 H 7 c -5.5,0 -1,13 -5.5,14 z m 3.625,-2 H 11.5 m -6.125,-2 H 12 m -6.5,-2 h 6.625 m -6.5,-2 h 6.625 m 0.25,-2 H 5.75 M 13,3.5 H 6.25"
+         id="CarbonPaperBasic"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccc" />
+    </g>
+    <g
+       id="Icon_CarbonPaper_Warning"
+       transform="translate(288,36)">
+      <use
+         id="use4121"
+         xlink:href="#CarbonPaperBasic"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         height="100%"
+         width="100%"
+         id="use3863"
+         xlink:href="#YellowWarningBasic"
+         y="0"
+         x="0"
+         transform="matrix(0.5,0,0,0.5,9,9)" />
+    </g>
+    <g
+       transform="translate(306,36)"
+       id="Icon_CarbonPaper_Error">
+      <use
+         height="100%"
+         width="100%"
+         x="0"
+         y="0"
+         xlink:href="#CarbonPaperBasic"
+         id="use4146" />
+      <use
+         transform="matrix(0.5,0,0,0.5,9,9)"
+         x="0"
+         y="0"
+         xlink:href="#RedWarningBasic"
+         id="use4148"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
        transform="translate(0,54)"
        id="Icon_Sprite_CC">
       <use
@@ -3897,9 +3937,7 @@
          y="0"
          xlink:href="#hourglass_top_cc"
          id="hourglass_bottom_cc"
-         transform="translate(0,12)"
-         width="640"
-         height="800" />
+         transform="translate(0,12)" />
     </g>
     <g
        transform="translate(126,54)"
@@ -3953,8 +3991,6 @@
        transform="translate(18,72)">
       <use
          transform="translate(-1)"
-         height="800"
-         width="640"
          id="use3963"
          xlink:href="#Basic_Paper"
          y="0"
@@ -4066,8 +4102,6 @@
        transform="translate(72,72)">
       <use
          inkscape:label="#saveAll_Clone2"
-         height="800"
-         width="640"
          transform="translate(-4,-4)"
          id="SaveAll_Clone2"
          xlink:href="#MiniFloppyDisk"
@@ -4147,7 +4181,6 @@
          y="14"
          x="8.5"
          xml:space="preserve"
-         sodipodi:linespacing="0%"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><tspan
            style="font-size:7px"
            y="14"
@@ -4195,12 +4228,8 @@
          y="0"
          xlink:href="#g6809"
          id="use6817"
-         transform="translate(-4,-4)"
-         width="640"
-         height="800" />
+         transform="translate(-4,-4)" />
       <use
-         height="800"
-         width="640"
          transform="translate(-2,-2)"
          id="use6815"
          xlink:href="#g6809"
@@ -4444,8 +4473,6 @@
          id="settingsWindow_box"
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient13096);fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
       <use
-         height="800"
-         width="640"
          transform="translate(0,4)"
          id="settingsWindow_box2"
          xlink:href="#settingsWindow_box"
@@ -4474,8 +4501,6 @@
            sodipodi:nodetypes="cccccccsssscc" />
       </g>
       <use
-         height="800"
-         width="640"
          transform="translate(2,4)"
          id="cascade_window1"
          xlink:href="#Basic_CascadeWindow"
@@ -4486,9 +4511,7 @@
          y="0"
          xlink:href="#Basic_CascadeWindow"
          id="cascade_window2"
-         transform="translate(4,8)"
-         width="640"
-         height="800" />
+         transform="translate(4,8)" />
     </g>
     <g
        id="Icon_Problem"
@@ -4680,8 +4703,6 @@
        id="Icon_NewFolder_Orange"
        transform="translate(72,90)">
       <use
-         height="800"
-         width="640"
          id="newFolder_folder_orange"
          xlink:href="#basicFolder_Orange"
          y="0"
@@ -4699,8 +4720,6 @@
        id="Icon_DeleteFolder_Orange"
        transform="translate(90,90)">
       <use
-         height="800"
-         width="640"
          id="deleteFolder_folder_orange"
          xlink:href="#basicFolder_Orange"
          y="0"
@@ -4765,8 +4784,6 @@
        id="Icon_NewFolder_Brown"
        transform="translate(144,90)">
       <use
-         height="800"
-         width="640"
          id="newFolder_Brown_folder"
          xlink:href="#basicFolder_Brown"
          y="0"
@@ -4784,8 +4801,6 @@
        id="Icon_DeleteFolder_Brown"
        transform="translate(162,90)">
       <use
-         height="800"
-         width="640"
          id="deleteFolder_Brown_folder"
          xlink:href="#basicFolder_Brown"
          y="0"
@@ -5212,49 +5227,37 @@
            y="0"
            xlink:href="#instr_1_blue"
            id="use7072-9"
-           transform="translate(5,9.125)"
-           width="640"
-           height="800" />
+           transform="translate(5,9.125)" />
         <use
            x="0"
            y="0"
            xlink:href="#instr_1_blue"
            id="use7070-5"
-           transform="translate(1,9.125)"
-           width="640"
-           height="800" />
+           transform="translate(1,9.125)" />
         <use
            x="0"
            y="0"
            xlink:href="#instr_0_blue"
            id="use7068-1"
-           transform="translate(-7,9.125)"
-           width="640"
-           height="800" />
+           transform="translate(-7,9.125)" />
         <use
            x="0"
            y="0"
            xlink:href="#instr_1_blue"
            id="use7074-5"
-           transform="translate(-3,4.875)"
-           width="640"
-           height="800" />
+           transform="translate(-3,4.875)" />
         <use
            x="0"
            y="0"
            xlink:href="#instr_0_blue"
            id="use7076-7"
-           transform="translate(-3,4.875)"
-           width="640"
-           height="800" />
+           transform="translate(-3,4.875)" />
         <use
            x="0"
            y="0"
            xlink:href="#instr_0_blue"
            id="use7078-1"
-           transform="translate(1,4.875)"
-           width="640"
-           height="800" />
+           transform="translate(1,4.875)" />
       </g>
       <path
          sodipodi:nodetypes="scssscssssss"
@@ -5699,8 +5702,6 @@
            style="color:#000000;font-weight:bold;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans Bold';text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11853);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13195);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            d="m 7.5,16.5 c -0.3339904,0 -1.2096055,0 -1.5,0 -1.5,0 -3.5,-0.5 -3.5,-2 v -1 c 0,-1 -0.875,-1.75 -1.75,-2 0.875,-0.25 1.75,-0.75 1.75,-2 v -1 c 0,-1.5 2,-2 3.5,-2 h 1.5 v 1 c -0.75,0 -2,0.5 -2,1.375 v 1 C 5.5,10.750009 4.5,11.25 3.625,11.5 4.5,11.75 5.5,12.249988 5.5,13.125 V 14.5 c 0,1 1.25,1 2,1 z" />
         <use
-           height="800"
-           width="640"
            transform="matrix(-1,0,0,1,18,0)"
            id="use6784"
            xlink:href="#path6614"
@@ -5721,9 +5722,7 @@
          id="use6808"
          xlink:href="#text6577"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <path
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m 2,2.5 c 1.4142134,-0.8284268 4.555456,-1.6620581 6.853553,0.6360389 1.944544,1.9445437 2.12132,3.4497476 2.12132,4.9497475 0,1.0000006 0,1.4142136 0,1.4142136 h 1.414214 c 0.499999,0 0.671572,0.389088 0.171572,0.889088 l -2.999999,2.999999 -3.0000004,-3 C 6.0606594,9.889087 6.5857852,9.5 7.0857861,9.5 H 8.5 V 8.7928932 C 8.499999,7.792893 8.676776,6.4947961 7.2625628,5.0805826 5.8483492,3.666369 3.7677668,4.1464469 2.3535532,4.8535537 1.6827329,5.1889638 1.5,5 1,4 0.5,3 1.3528578,2.8790871 2,2.5 Z"
@@ -5738,9 +5737,7 @@
          x="0"
          y="0"
          xlink:href="#text6577"
-         id="use6846"
-         width="640"
-         height="800" />
+         id="use6846" />
       <path
          sodipodi:nodetypes="szscscccscszszs"
          inkscape:connector-curvature="0"
@@ -5783,16 +5780,12 @@
            id="g6648">
           <use
              style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8328);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-             height="800"
-             width="640"
              id="instr_1_blue"
              xlink:href="#basic_instruction_1"
              y="0"
              x="0"
              transform="translate(-0.875)" />
           <use
-             height="800"
-             width="640"
              style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:url(#linearGradient8438);stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
              id="instr_0_blue"
              xlink:href="#basic_instruction_0"
@@ -5800,80 +5793,60 @@
              x="0"
              transform="translate(-0.125)" />
           <use
-             height="800"
-             width="640"
              transform="translate(7.875)"
              id="use7080"
              xlink:href="#instr_1_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(-4,4)"
              id="use7068"
              xlink:href="#instr_0_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(3.875,4)"
              id="use7070"
              xlink:href="#instr_1_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(7.875,4)"
              id="use7072"
              xlink:href="#instr_1_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(1,8)"
              id="use7074"
              xlink:href="#instr_1_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(1,8)"
              id="use7076"
              xlink:href="#instr_0_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(5,8)"
              id="use7078"
              xlink:href="#instr_0_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(-4,12)"
              id="use7084"
              xlink:href="#instr_0_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(4,12)"
              id="use7082"
              xlink:href="#instr_1_blue"
              y="0"
              x="0" />
           <use
-             height="800"
-             width="640"
              transform="translate(4,12)"
              id="use7086"
              xlink:href="#instr_0_blue"
@@ -5895,9 +5868,7 @@
          id="use7144"
          xlink:href="#Instruction_1s_and_0s"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <path
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6862);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6868);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m 5.5,4.5 v 2 H 4.125 C 3,6.5 2.5,7.5 2.5,8.5 c 0,1 0.5,2 3,2 V 9 l 3,2.5 -3,2.5 v -1.5 c -4,0 -5,-1.5 -5,-4 0,-2.5 1.5035691,-4.1034136 3,-4 z"
@@ -5933,6 +5904,34 @@
          height="1" />
     </g>
     <g
+       id="Icon_Function"
+       transform="translate(452.52389,108.56326)">
+      <path
+         sodipodi:nodetypes="csccccsccccccccccsssc"
+         inkscape:connector-curvature="0"
+         id="path8619"
+         d="M 1.625,14.875 C 1.75,15 1.8125,15.171878 2.0625,15.171878 3.9375,15.171878 4.0625,9.0468775 5,6 H 3.375 L 3.5,5.5 H 5.125 C 5.875,3.5 6.625,1 9,1 10.25,1 10.625,1.625 10.625,2.25 10.625,2.75 10.375,3 9.75,3 9.375,3 9,2.75 9,2.25 9,2 9.375,1.625 9.375,1.5 9.375,1.375 9.125,1.375 9,1.375 7.5,1.375 7.25,3.5 6.75,5.5 h 1.5 L 8.125,6 h -1.5 C 6,9.25 5.375,15.5 1.75,15.5 c -0.625,0 -1.383414,-0.281248 -1.375,-1.125 0.003403,-0.341288 0.206152,-0.750002 0.84375,-0.750002 0.40625,0 0.65625,0.250004 0.65625,0.625002 0,0.25 -0.046875,0.500002 -0.25,0.625 z"
+         style="fill:#5599ff;stroke:#5599ff;stroke-width:0.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="sssssssssssccsssccsssc"
+         inkscape:connector-curvature="0"
+         d="m 10.375,11.625 c -0.125,0 -0.375,-0.5 -0.75,-0.5 C 9.25,11.125 9,11.5 9,11.875 c 0,0.375 0.3964466,0.75 0.75,0.75 0.923234,0 2,-1.875 3.25,-3.375 C 14.25,7.75 14.838054,7 15,7 15.125,7 15.375,7.5 15.75,7.5 16.125,7.5 16.5,7.125 16.5,6.75 16.5,6.375 16.25,6 15.75,6 c -1,0 -2.125,1.875 -3,3 -0.875,1.125 -2,2.625 -2.375,2.625 z M 9.625,8.25 9.875,8.375 c 0,0 1,-1.625 1.375,-1.625 0.545783,0 0.625,1 0.875,2.5 0.375,2.25 0.652209,3.5 1.875,3.5 1.5,0 2.375,-2.375 2.375,-2.375 l -0.25,-0.125 c 0,0 -1,1.625 -1.375,1.625 -0.625,0 -0.625,-1.125 -1.125,-3.125 C 13.25,7.25 13.333066,6 12,6 10.75,6 9.625,8.25 9.625,8.25 Z"
+         style="fill:#00ffff;fill-opacity:1;fill-rule:nonzero;stroke:#00ffff;stroke-width:0.125;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path8658" />
+      <path
+         sodipodi:nodetypes="cczcczc"
+         inkscape:connector-curvature="0"
+         id="path8660"
+         d="m 9.75,4.5 0.125,0.375 c 0,0 -1.125,0.25 -1.375,4.25 -0.25,4 1.125,4.375 1.125,4.375 L 9.5,13.875 c 0,0 -1.875,-0.5 -1.625,-4.75 C 8.125,4.875 9.75,4.5 9.75,4.5 Z"
+         style="fill:#ff0000;stroke:#ff0000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 15.75,13.875 15.625,13.5 c 0,0 1.125,-0.25 1.375,-4.25 0.25,-4 -1.125,-4.375 -1.125,-4.375 L 16,4.5 c 0,0 1.875,0.5 1.625,4.75 -0.25,4.25 -1.875,4.625 -1.875,4.625 z"
+         id="path8662"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cczcczc" />
+    </g>
+    <g
        id="Icon_Undo"
        transform="translate(0,126)">
       <path
@@ -5942,8 +5941,6 @@
          d="M 13.5,12 17,10.5 c -0.5,-3.5 -2.5,-6 -7,-6 -3,0 -5,1 -6.5,4 L 1.5,7 2,15 8.5,11.5 6,10 c 0.8057156,-1.2603566 2,-2.5 4,-2.5 3,0 3,2 3.5,4.5 z"
          style="fill-opacity:1" />
       <use
-         height="800"
-         width="640"
          transform="translate(0.25,0.75)"
          style="opacity:0.65;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:0.98039216;filter:url(#filter6368)"
          id="undo_arrow_shadow"
@@ -5952,8 +5949,6 @@
          x="0" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11731);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient13114);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         height="800"
-         width="640"
          id="undo_arrow_color"
          xlink:href="#Basic_Undo_Arrow"
          y="0"
@@ -5963,8 +5958,6 @@
        id="Icon_Redo"
        transform="translate(18,126)">
       <use
-         height="800"
-         width="640"
          transform="matrix(-1,0,0,1,18,0)"
          id="use6381"
          xlink:href="#undo_arrow_shadow"
@@ -6094,33 +6087,25 @@
            y="0"
            xlink:href="#basicMagGlass_handle"
            id="magGlass_handle"
-           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11997);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12003);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800" />
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11997);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12003);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
         <use
            x="0"
            y="0"
            xlink:href="#basicMagGlass_rim"
            id="magGlass_rim"
-           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11853);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient8063);stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800" />
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11853);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient8063);stroke-width:1.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
         <use
            x="0"
            y="0"
            xlink:href="#basicMagGlass_gloss"
            id="magGlass_gloss"
-           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8259);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient8065);stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800" />
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8259);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient8065);stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
       </g>
     </g>
     <g
        id="Icon_ZoomIn"
        transform="translate(198,126)">
       <use
-         height="800"
-         width="640"
          id="zoomIn_magGlass"
          xlink:href="#Basic_MagnifyingGlass"
          y="0"
@@ -6141,9 +6126,7 @@
          id="zoomOut_magGlass"
          xlink:href="#Basic_MagnifyingGlass"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          height="1"
          width="1"
@@ -6246,8 +6229,6 @@
          width="1"
          height="1" />
       <use
-         height="800"
-         width="640"
          transform="translate(5,3)"
          id="copy_miniPaper_top"
          xlink:href="#copy_miniPaper"
@@ -6297,9 +6278,7 @@
          x="0"
          y="0"
          xlink:href="#Basic_Paper"
-         id="use3963-2"
-         width="640"
-         height="800" />
+         id="use3963-2" />
       <g
          id="shaded_magnifying_glass_basic">
         <g
@@ -6329,8 +6308,6 @@
         </g>
         <use
            transform="matrix(0.625,0,0,0.625,7,7.25)"
-           height="800"
-           width="640"
            id="zoomIn_magGlass-8"
            xlink:href="#Basic_MagnifyingGlass"
            y="0"
@@ -6385,9 +6362,7 @@
          y="0"
          xlink:href="#g6722"
          id="use6726"
-         transform="translate(7)"
-         width="640"
-         height="800" />
+         transform="translate(7)" />
       <g
          id="g6722">
         <path
@@ -6552,8 +6527,6 @@
            y="0"
            xlink:href="#smallArrow_Red_Down"
            id="keyup_uparrow"
-           width="640"
-           height="800"
            transform="translate(4,1)" />
       </g>
     </g>
@@ -6574,8 +6547,6 @@
            y="0"
            xlink:href="#smallArrow_Green_Up"
            id="keydown_downarrow"
-           width="640"
-           height="800"
            transform="translate(4,1)" />
       </g>
     </g>
@@ -6695,16 +6666,12 @@
            inkscape:connector-curvature="0"
            sodipodi:nodetypes="cszscc" />
         <use
-           height="800"
-           width="640"
            x="0"
            y="0"
            xlink:href="#basic_lightbulb_bulb"
            id="lightbulb_bulb"
            style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient9162);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient9164);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
         <use
-           height="800"
-           width="640"
            x="0"
            y="0"
            xlink:href="#basic_lightbulb_bulb"
@@ -6760,12 +6727,8 @@
            xlink:href="#basic_collisionarrow1"
            id="collision_shadow1"
            style="opacity:0.6;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1;filter:url(#filter5707)"
-           transform="translate(0,0.75)"
-           width="640"
-           height="800" />
+           transform="translate(0,0.75)" />
         <use
-           height="800"
-           width="640"
            x="0"
            y="0"
            xlink:href="#basic_collisionarrow1"
@@ -6777,12 +6740,8 @@
            xlink:href="#basic_collisionarrow2"
            id="collision_shadow2"
            style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:#000000;stroke-linejoin:round;stroke-opacity:1;filter:url(#filter5782)"
-           width="640"
-           height="800"
            transform="translate(-0.25,0.5)" />
         <use
-           height="800"
-           width="640"
            x="0"
            y="0"
            xlink:href="#basic_collisionarrow2"
@@ -6854,9 +6813,7 @@
            y="0"
            xlink:href="#alarm_bell_left"
            id="alarm_bell_right"
-           transform="matrix(-1,0,0,1,18,0)"
-           width="640"
-           height="800" />
+           transform="matrix(-1,0,0,1,18,0)" />
       </g>
     </g>
     <g
@@ -7251,8 +7208,6 @@
        transform="translate(18,180)"
        id="Icon_WinMaximize_Monochrome">
       <use
-         height="800"
-         width="640"
          x="0"
          y="0"
          xlink:href="#Basic_WindowIcon_MonoChrome"
@@ -7271,9 +7226,7 @@
          x="0"
          y="0"
          xlink:href="#Basic_WindowIcon_MonoChrome"
-         id="use5855"
-         width="640"
-         height="800" />
+         id="use5855" />
       <path
          sodipodi:nodetypes="ssssssssscsssscc"
          inkscape:connector-curvature="0"
@@ -7288,9 +7241,7 @@
          id="use5893"
          xlink:href="#Basic_WindowIcon_MonoChrome"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <path
          sodipodi:nodetypes="ssscsssscsssscsssscss"
          inkscape:connector-curvature="0"
@@ -7652,9 +7603,7 @@
          y="0"
          xlink:href="#path6986"
          id="use7092"
-         style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13098);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         width="640"
-         height="800" />
+         style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13098);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
       <path
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient13096);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13098);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          d="m 4.5,3 v 3.5 c 0.5,0.5 2.5,1 4,1 1.5,0 3.5,-0.5 4,-1 V 3 c 0,1 -1.75,1.5 -4,1.5 C 6.25,4.5 4.5,4 4.5,3 Z"
@@ -7811,20 +7760,14 @@
          id="use6136"
          xlink:href="#path6132"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          x="0"
          y="0"
          xlink:href="#path6132"
          id="use6138"
-         style="fill:none;stroke:url(#linearGradient7122);stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0.89999998;stroke-opacity:1"
-         width="640"
-         height="800" />
+         style="fill:none;stroke:url(#linearGradient7122);stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1, 2;stroke-dashoffset:0.89999998;stroke-opacity:1" />
       <use
-         height="800"
-         width="640"
          transform="matrix(0.73333333,0,0,0.66666667,2.4,3)"
          x="0"
          y="0"
@@ -7866,8 +7809,6 @@
          id="rect6319"
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient13096);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13098);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
       <use
-         height="800"
-         width="640"
          transform="translate(6)"
          id="use6337"
          xlink:href="#rect6319"
@@ -7878,8 +7819,6 @@
        id="Icon_Healing"
        transform="translate(360,198)">
       <use
-         height="800"
-         width="640"
          transform="matrix(-1,0,0,1,18.250001,0)"
          id="use7428"
          xlink:href="#g7411"
@@ -7898,9 +7837,7 @@
            y="0"
            xlink:href="#path7202"
            id="use7375"
-           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11912);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient11906);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800" />
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient11912);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient11906);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
         <path
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient13628);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12003);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            d="m 5.7500004,7.75 c -0.1275611,0.3079598 -0.2357023,0.7642977 0,1 L 10.25,13.25 c 0.235702,0.235702 0.69204,0.127561 1,0 0.871042,-0.360797 1.639203,-1.128958 2,-2 0.127561,-0.30796 0.235702,-0.764298 0,-1 L 8.7500004,5.75 c -0.2357023,-0.2357023 -0.6920402,-0.1275611 -1,0 -0.871042,0.3607974 -1.6392026,1.128958 -2,2 z"
@@ -7927,12 +7864,8 @@
            y="0"
            xlink:href="#g7339"
            id="use7343"
-           transform="translate(1,-1)"
-           width="640"
-           height="800" />
+           transform="translate(1,-1)" />
         <use
-           height="800"
-           width="640"
            transform="translate(1,1)"
            id="use7345"
            xlink:href="#g7339"
@@ -7943,28 +7876,20 @@
            y="0"
            xlink:href="#g7339"
            id="use7347"
-           transform="translate(2)"
-           width="640"
-           height="800" />
+           transform="translate(2)" />
         <use
            x="0"
            y="0"
            xlink:href="#g7339"
            id="use7349"
-           transform="translate(2,2)"
-           width="640"
-           height="800" />
+           transform="translate(2,2)" />
         <use
-           height="800"
-           width="640"
            transform="translate(3,1)"
            id="use7351"
            xlink:href="#g7339"
            y="0"
            x="0" />
         <use
-           height="800"
-           width="640"
            transform="translate(3,3)"
            id="use7353"
            xlink:href="#g7339"
@@ -7975,9 +7900,7 @@
            y="0"
            xlink:href="#g7339"
            id="use7355"
-           transform="translate(4,2)"
-           width="640"
-           height="800" />
+           transform="translate(4,2)" />
       </g>
     </g>
     <g
@@ -8054,18 +7977,14 @@
          id="use8227"
          xlink:href="#use8027"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          clip-path="none"
          style="filter:url(#filter8253)"
          id="use8229"
          xlink:href="#use8219"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
     </g>
     <g
        id="Icon_Draw_Invert"
@@ -8074,17 +7993,13 @@
          id="use8270"
          xlink:href="#use8027"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="filter:url(#filter8278)"
          id="use8272"
          xlink:href="#use8219"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
     </g>
     <g
        id="Icon_Draw_ShiftHue"
@@ -8093,17 +8008,13 @@
          id="use8288"
          xlink:href="#use8027"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="filter:url(#filter8292)"
          id="use8290"
          xlink:href="#use8219"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
     </g>
     <g
        id="Icon_Draw_Blur"
@@ -8112,8 +8023,6 @@
          clip-path="url(#clipPath8450)"
          id="g8442">
         <use
-           height="800"
-           width="640"
            x="0"
            y="0"
            xlink:href="#use8027"
@@ -8123,13 +8032,9 @@
            y="0"
            xlink:href="#use8219"
            id="use8308"
-           width="640"
-           height="800"
            style="filter:url(#filter8430)" />
         <use
            style="filter:url(#filter8430)"
-           height="800"
-           width="640"
            id="use8434"
            xlink:href="#use8219"
            y="0"
@@ -8139,9 +8044,7 @@
            x="0"
            y="0"
            xlink:href="#use8219"
-           id="use8436"
-           width="640"
-           height="800" />
+           id="use8436" />
       </g>
     </g>
     <g
@@ -8159,9 +8062,7 @@
          id="use8219"
          xlink:href="#use8027"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
     </g>
     <g
        id="Icon_Draw_Antialias"
@@ -8398,8 +8299,6 @@
          y="0"
          x="0" />
       <use
-         height="800"
-         width="640"
          x="0"
          y="0"
          xlink:href="#use7471"
@@ -8424,8 +8323,6 @@
          width="1"
          height="1" />
       <use
-         height="800"
-         width="640"
          x="0"
          y="0"
          xlink:href="#use7547"
@@ -8469,8 +8366,6 @@
          width="1"
          height="1" />
       <use
-         height="800"
-         width="640"
          x="0"
          y="0"
          xlink:href="#use7801"
@@ -8495,8 +8390,6 @@
          y="0"
          x="0" />
       <use
-         height="800"
-         width="640"
          x="0"
          y="0"
          xlink:href="#use7961"
@@ -8540,8 +8433,6 @@
          y="0"
          x="0" />
       <use
-         height="800"
-         width="640"
          x="0"
          y="0"
          xlink:href="#use8143"
@@ -8569,9 +8460,7 @@
          x="0"
          y="0"
          xlink:href="#use8649"
-         id="use8733"
-         width="640"
-         height="800" />
+         id="use8733" />
       <use
          x="0"
          y="0"
@@ -8661,9 +8550,7 @@
          id="use7543"
          xlink:href="#use7471"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8867);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          height="1"
@@ -8687,9 +8574,7 @@
          id="use7723"
          xlink:href="#use7547"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8867);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          height="1"
@@ -8732,9 +8617,7 @@
          id="use7953"
          xlink:href="#use7801"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8867);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          height="1"
@@ -8758,9 +8641,7 @@
          id="use8091"
          xlink:href="#use7961"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8867);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          height="1"
@@ -8803,9 +8684,7 @@
          id="use8163"
          xlink:href="#use8143"
          y="0"
-         x="0"
-         width="640"
-         height="800" />
+         x="0" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8867);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          height="1"
@@ -8829,9 +8708,7 @@
          x="0"
          y="0"
          xlink:href="#use8169"
-         id="use8735"
-         width="640"
-         height="800" />
+         id="use8735" />
       <use
          style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient13114);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
          height="1"
@@ -8881,9 +8758,7 @@
            y="0"
            xlink:href="#basic_small_arrow"
            id="smallArrow_Red_Up"
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient7196);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7190);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-           width="640"
-           height="800" />
+           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient7196);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7190);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
       </g>
     </g>
     <g
@@ -8893,8 +8768,6 @@
          transform="translate(4.0005916,5.0625)"
          id="smallArrow_Red_Down_Padded">
         <use
-           height="800"
-           width="640"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient7196);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7190);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="smallArrow_Red_Down"
            xlink:href="#basic_small_arrow"
@@ -8915,8 +8788,6 @@
            xlink:href="#basic_small_arrow"
            id="smallArrow_Red_Left"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient7196);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7190);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800"
            transform="matrix(0,1,1,0,0,0)" />
       </g>
     </g>
@@ -8928,8 +8799,6 @@
          transform="translate(4,4)">
         <use
            transform="rotate(90,4.5,4.5)"
-           height="800"
-           width="640"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient7196);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7190);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="smallArrow_Red_Right"
            xlink:href="#basic_small_arrow"
@@ -8944,8 +8813,6 @@
          id="smallArrow_Green_Up_Padded"
          transform="translate(4,5)">
         <use
-           height="800"
-           width="640"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="smallArrow_Green_Up"
            xlink:href="#basic_small_arrow"
@@ -8965,9 +8832,7 @@
            y="0"
            xlink:href="#basic_small_arrow"
            id="smallArrow_Green_Down"
-           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800" />
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
       </g>
     </g>
     <g
@@ -8978,8 +8843,6 @@
          transform="translate(4,4)">
         <use
            transform="matrix(0,1,1,0,0,0)"
-           height="800"
-           width="640"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            id="smallArrow_Green_Left"
            xlink:href="#basic_small_arrow"
@@ -8999,8 +8862,6 @@
            xlink:href="#basic_small_arrow"
            id="smallArrow_Green_Right"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-           width="640"
-           height="800"
            transform="rotate(90,4.5,4.5)" />
       </g>
     </g>
@@ -9039,42 +8900,48 @@
     <g
        id="Icon_Warning_Yellow"
        transform="translate(36,288)">
-      <use
-         x="0"
-         y="0"
-         xlink:href="#warning_basic"
-         id="warning_yellow"
-         width="1"
-         height="1"
-         style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient7378);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7384);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <use
-         x="0"
-         y="0"
-         xlink:href="#exclaimation_dark_basic"
-         id="use10703-6"
-         width="1"
-         height="1"
-         style="opacity:0.75" />
+      <g
+         id="YellowWarningBasic">
+        <use
+           x="0"
+           y="0"
+           xlink:href="#warning_basic"
+           id="warning_yellow"
+           width="1"
+           height="1"
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient7378);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient7384);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#exclaimation_dark_basic"
+           id="use10703-6"
+           width="1"
+           height="1"
+           style="opacity:0.75" />
+      </g>
     </g>
     <g
        id="Icon_Warning_Red"
        transform="translate(18,288)">
-      <use
-         style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6862);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6868);stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         height="1"
-         width="1"
-         id="use10108-3"
-         xlink:href="#warning_basic"
-         y="0"
-         x="0" />
-      <use
-         x="0"
-         y="0"
-         xlink:href="#exclaimation_light_basic"
-         id="use10703"
-         width="1"
-         height="1"
-         style="fill:#ffffff;fill-opacity:0.4745098" />
+      <g
+         id="RedWarningBasic">
+        <use
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6862);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient6868);stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           height="1"
+           width="1"
+           id="use10108-3"
+           xlink:href="#warning_basic"
+           y="0"
+           x="0" />
+        <use
+           x="0"
+           y="0"
+           xlink:href="#exclaimation_light_basic"
+           id="use10703"
+           width="1"
+           height="1"
+           style="fill:#ffffff;fill-opacity:0.4745098" />
+      </g>
     </g>
     <g
        transform="translate(72,288)"
@@ -9134,8 +9001,6 @@
            id="SmallMagnet45_tip"
            style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:url(#linearGradient13096);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient13098);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
         <use
-           height="800"
-           width="640"
            transform="translate(5.6568542)"
            id="SmallMagnet45_tip2"
            xlink:href="#SmallMagnet45_tip"
