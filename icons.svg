@@ -30,7 +30,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="SVGRoot"
    version="1.1"
-   inkscape:version="0.92.2"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="icons.svg"
    inkscape:export-filename="/home/josh/Desktop/resourceicons.png"
    inkscape:export-xdpi="90"
@@ -10432,6 +10432,24 @@
        y1="255.93419"
        x2="481.92801"
        y2="264.9342" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10726-5"
+       id="linearGradient4174"
+       gradientUnits="userSpaceOnUse"
+       x1="9"
+       y1="13"
+       x2="9"
+       y2="5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10708-48"
+       id="linearGradient4176"
+       gradientUnits="userSpaceOnUse"
+       x1="10"
+       y1="14"
+       x2="10"
+       y2="3" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -11239,6 +11257,54 @@
       </g>
     </g>
     <g
+       id="Icon_CarbonPaper"
+       transform="translate(270,36)">
+      <path
+         style="opacity:1;fill:url(#linearGradient4174);fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient4176);stroke-width:1.00199997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+         d="M 1.5,15.5 H 11 c 5.5,0 1,-13 5.5,-14 H 7 c -5.5,0 -1,13 -5.5,14 z m 3.625,-2 H 11.5 m -6.125,-2 H 12 m -6.5,-2 h 6.625 m -6.5,-2 h 6.625 m 0.25,-2 H 5.75 M 13,3.5 H 6.25"
+         id="CarbonPaperBasic"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccccccccc" />
+    </g>
+    <g
+       id="Icon_CarbonPaper_Warning"
+       transform="translate(288,36)">
+      <use
+         id="use4121"
+         xlink:href="#CarbonPaperBasic"
+         y="0"
+         x="0"
+         width="100%"
+         height="100%" />
+      <use
+         height="100%"
+         width="100%"
+         id="use3863"
+         xlink:href="#YellowWarningBasic"
+         y="0"
+         x="0"
+         transform="matrix(0.5,0,0,0.5,9,9)" />
+    </g>
+    <g
+       transform="translate(306,36)"
+       id="Icon_CarbonPaper_Error">
+      <use
+         height="100%"
+         width="100%"
+         x="0"
+         y="0"
+         xlink:href="#CarbonPaperBasic"
+         id="use4146" />
+      <use
+         transform="matrix(0.5,0,0,0.5,9,9)"
+         x="0"
+         y="0"
+         xlink:href="#RedWarningBasic"
+         id="use4148"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
        transform="translate(0,54)"
        id="Icon_Sprite_CC">
       <use
@@ -11648,7 +11714,6 @@
          y="14"
          x="8.5"
          xml:space="preserve"
-         sodipodi:linespacing="0%"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:0%;font-family:Arial;-inkscape-font-specification:Arial;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"><tspan
            style="font-size:7px"
            y="14"
@@ -16629,41 +16694,47 @@
     <g
        id="Icon_Warning_Yellow"
        transform="translate(36,288)">
-      <use
-         x="0"
-         y="0"
-         xlink:href="#warning_basic"
-         id="warning_yellow"
-         width="1"
-         height="1"
-         style="fill:url(#linearGradient10455);fill-opacity:1;stroke:url(#linearGradient10457);stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
-      <use
-         x="0"
-         y="0"
-         xlink:href="#exclaimation_dark_basic"
-         id="use10703-6"
-         width="1"
-         height="1"
-         style="opacity:0.75" />
+      <g
+         id="YellowWarningBasic">
+        <use
+           style="fill:url(#linearGradient10455);fill-opacity:1;stroke:url(#linearGradient10457);stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
+           height="1"
+           width="1"
+           id="warning_yellow"
+           xlink:href="#warning_basic"
+           y="0"
+           x="0" />
+        <use
+           style="opacity:0.75"
+           height="1"
+           width="1"
+           id="use10703-6"
+           xlink:href="#exclaimation_dark_basic"
+           y="0"
+           x="0" />
+      </g>
     </g>
     <g
        id="Icon_Warning_Red"
        transform="translate(18,288)">
-      <use
-         style="fill:url(#linearGradient10448);fill-opacity:1;stroke:url(#linearGradient10450);stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none"
-         height="1"
-         width="1"
-         id="use10108-3"
-         xlink:href="#warning_basic"
-         y="0"
-         x="0" />
-      <use
-         x="0"
-         y="0"
-         xlink:href="#exclaimation_light_basic"
-         id="use10703"
-         width="1"
-         height="1" />
+      <g
+         id="RedWarningBasic">
+        <use
+           x="0"
+           y="0"
+           xlink:href="#warning_basic"
+           id="use10108-3"
+           width="1"
+           height="1"
+           style="fill:url(#linearGradient10448);fill-opacity:1;stroke:url(#linearGradient10450);stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none" />
+        <use
+           height="1"
+           width="1"
+           id="use10703"
+           xlink:href="#exclaimation_light_basic"
+           y="0"
+           x="0" />
+      </g>
     </g>
     <g
        transform="translate(72,288)"
