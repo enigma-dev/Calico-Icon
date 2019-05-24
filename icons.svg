@@ -11499,6 +11499,25 @@
          style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#radialGradient10213);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient10215);stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" />
     </g>
     <g
+       id="Icon_Attachment"
+       transform="translate(180,54)">
+      <use
+         xlink:href="#definitions_paper"
+         id="use3820" />
+      <path
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#6685ae;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none"
+         d="m 5.5,11.5 v -5 c 0,-2 1.5,-3 3,-3 v 0 c 1.5,0 3,1 3,3 V 11 c 0,2 -1.5,2.5 -2.5,2.5 v 0 C 8.25,13.5 7.5,13 7.5,11.5 V 7.5624992 C 7.5,7 8,6.5 8.5,6.5 c 0.5,0 1,0.5 1,1 v 4"
+         id="path3837"
+         sodipodi:nodetypes="ccccccccccscc" />
+      <use
+         xlink:href="#definitions_paperFold"
+         id="use3824" />
+      <use
+         xlink:href="#path3837"
+         id="use3854"
+         style="opacity:0.5" />
+    </g>
+    <g
        transform="translate(216,54)"
        id="Icon_Extension_CC">
       <use
