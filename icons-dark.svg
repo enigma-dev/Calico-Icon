@@ -31,7 +31,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="SVGRoot"
    version="1.1"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
    sodipodi:docname="icons-dark.svg"
    inkscape:export-filename="/home/josh/Desktop/resourceicons.png"
    inkscape:export-xdpi="90"
@@ -883,10 +883,10 @@
     <filter
        id="brightenContrast20"
        inkscape:label="Brighten-UpContrast"
-       x="0"
-       y="0"
-       width="1"
-       height="1"
+       x="-0.05"
+       y="-0.05"
+       width="1.1"
+       height="1.1"
        style="color-interpolation-filters:sRGB">
       <feComposite
          id="feComposite6180"
@@ -942,10 +942,10 @@
        inkscape:menu-tooltip="Increase or decrease lightness and contrast"
        inkscape:menu="Color"
        inkscape:label="Lightness-Contrast"
-       height="1"
-       width="1"
-       y="0"
-       x="0"
+       height="1.1"
+       width="1.1"
+       y="0.05"
+       x="-0.05"
        id="brighten10"
        style="color-interpolation-filters:sRGB">
       <feFlood
@@ -974,10 +974,10 @@
     </filter>
     <filter
        id="brighten20"
-       x="0"
-       y="0"
-       width="1"
-       height="1"
+       x="-0.05"
+       y="-0.05"
+       width="1.1"
+       height="1.1"
        inkscape:label="Lightness-Contrast"
        inkscape:menu="Color"
        inkscape:menu-tooltip="Increase or decrease lightness and contrast"
@@ -1010,10 +1010,10 @@
        inkscape:menu-tooltip="Increase or decrease lightness and contrast"
        inkscape:menu="Color"
        inkscape:label="Lightness-Contrast"
-       height="1"
-       width="1"
-       y="0"
-       x="0"
+       height="1.1"
+       width="1.1"
+       y="-0.05"
+       x="-0.05"
        id="brighten40"
        style="color-interpolation-filters:sRGB">
       <feFlood
@@ -2911,6 +2911,42 @@
        y1="3.5"
        x2="14"
        y2="3.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#green"
+       id="linearGradient2555"
+       gradientUnits="userSpaceOnUse"
+       x1="3"
+       y1="9.3125"
+       x2="15.5"
+       y2="9.3125" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#lime-light"
+       id="linearGradient2557"
+       gradientUnits="userSpaceOnUse"
+       x1="1.8047968"
+       y1="4.125"
+       x2="16.5"
+       y2="4.125" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#redgenta"
+       id="linearGradient2618"
+       gradientUnits="userSpaceOnUse"
+       x1="0.18654428"
+       y1="4.56286"
+       x2="9.8146095"
+       y2="4.56286" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#redgenta-light"
+       id="linearGradient2620"
+       gradientUnits="userSpaceOnUse"
+       x1="0.18654428"
+       y1="4.56286"
+       x2="9.8146095"
+       y2="4.56286" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -8882,6 +8918,77 @@
            id="smallArrow_Green_Right"
            style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient6727);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient12078);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            transform="rotate(90,4.5,4.5)" />
+      </g>
+    </g>
+    <g
+       id="Icon_Diamond_Small"
+       transform="translate(162,252)">
+      <g
+         id="g2418"
+         transform="translate(4,4)">
+        <path
+           sodipodi:nodetypes="sssssssss"
+           inkscape:connector-curvature="0"
+           id="use2416"
+           d="M 1,5.5 4.5,9 C 5,9.5 5,9.5 5.5,9 L 9,5.5 C 9.5,5 9.5,5 9,4.5 L 5.5,1 C 5,0.5 5,0.5 4.5,1 L 1,4.5 C 0.5,5 0.5,5 1,5.5 Z"
+           style="color:#000000;font-variation-settings:normal;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient11731);fill-opacity:1;fill-rule:nonzero;stroke:#a6caf1;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;stop-color:#000000;stop-opacity:1"
+           transform="rotate(90,4.5,4.5)" />
+      </g>
+    </g>
+    <g
+       transform="translate(180,252)"
+       id="Icon_SmallArrow_Exit">
+      <g
+         id="g2373"
+         transform="translate(4,4)">
+        <g
+           id="g2658">
+          <path
+             sodipodi:nodetypes="ccccccccccccccccccccc"
+             transform="translate(-183,-256)"
+             d="m 190,254 v 3 h -1 l 1,1 h 1 v -3 z m -10,1 v 11 h 1 v -10 h 8 v -1 z m 10,9 v 3 h -11 l 1,1 h 11 v -3 z"
+             style="fill:#999999;stroke:none"
+             id="path6965" />
+          <path
+             transform="translate(-184,-256)"
+             sodipodi:nodetypes="cccccc"
+             id="path6915"
+             d="m 190.5,257 v -2.5 h -10 v 12 h 10 V 264"
+             style="fill:none;stroke:#f9f9f9;stroke-width:1;stroke-linecap:butt" />
+        </g>
+        <use
+           x="0"
+           y="0"
+           xlink:href="#basic_small_arrow"
+           id="smallArrow_Red_Right-3"
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient2618);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2620);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           transform="rotate(90,7,7)"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       id="Icon_SmallArrow_Enter"
+       transform="translate(198,252)">
+      <g
+         transform="translate(4,4)"
+         id="g2551">
+        <use
+           id="use2660"
+           xlink:href="#g2658"
+           y="0"
+           x="0"
+           width="100%"
+           height="100%" />
+        <use
+           height="100%"
+           width="100%"
+           transform="matrix(0,1,1,0,0,0)"
+           style="color:#000000;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;white-space:normal;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient2555);fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient2557);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="use2549"
+           xlink:href="#basic_small_arrow"
+           y="0"
+           x="0" />
       </g>
     </g>
     <g
